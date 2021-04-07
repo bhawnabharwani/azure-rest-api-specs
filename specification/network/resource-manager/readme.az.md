@@ -36,3 +36,26 @@ cli:
         param: serviceName
       alias: name
 ```
+
+
+### -----start of auto generated cli-directive----- ###
+``` yaml $(az)
+cli:
+  cli-directive:
+    - where:
+        group: 'ExpressRouteCircuitConnections'
+        op: List
+        apiVersion: '2018-11-01'
+      hidden: false
+    - where:
+        group: 'ExpressRouteCircuits'
+        op: ListRoutesTableSummary
+        apiVersion: '2017-06-01'
+      hidden: false
+    - where:
+        group: 'ExpressRouteCircuits'
+        op: GetPeeringStats
+        apiVersion: '2017-03-01'
+      hidden: false
+```
+### -----end of auto generated cli-directive----- ###
